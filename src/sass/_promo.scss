@@ -2,4 +2,57 @@
     min-height: 650px;
     padding: 21px 0 93px 0; 
     background: url(../img/bg/logo_bg.png);
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 91px;
+        .promo__header {
+            font-weight: 700;
+            font-size: 42px;
+            text-transform: uppercase; 
+            color: #FFFFFF;
+        }
+        .promo__subheader {
+            font-weight: 500;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .promo__icons {
+            display: flex;
+            margin-top: 60px;
+            .promo__icon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                font-weight: 500;
+                font-size: 14px;
+                color: #FFFFFF;
+                width: 125px;
+                margin: 0 15px;
+                img {
+                    width: 43px;
+                    height: 43px;
+                }
+            }
+        }
+        .button_main {
+            margin-top: 65px;
+            width: 300px;
+            height: 50px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .promo__link {
+            margin-top: 6px;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 16px;
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
 }
